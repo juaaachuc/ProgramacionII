@@ -22,6 +22,8 @@ public class Main {
     empleados[2] = empleadoC;
     empleados[3] = empleadoD;
 
+    System.out.println(empleados.hashCode());
+
     for (Empleado empleado : empleados) {
       if (empleado instanceof Empleado) {
         System.out.println(empleado.toString());
